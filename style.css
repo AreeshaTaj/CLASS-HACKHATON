@@ -11,7 +11,15 @@
     position: relative;
     display: inline-block;
   }
+   .navbar-toggler {
+    background-color: #febb2c;
+   }
 
+   .navbar-collapse.show {
+    background-color: #febb2c ;
+    padding: 1rem;
+    border-radius: 10px;
+}
   .lang-select {
     border: none;
     outline: none;
@@ -131,7 +139,9 @@
     bottom: 150px;
     left: 40px;
   }
- 
+  .container footer li a {
+    color: #686d77 !important;
+  }
 
 
     @media (max-width: 768px) {
@@ -152,6 +162,24 @@
     .input-group, .btn {
       width: 100%;
     }
+
+      footer.row {
+    flex-direction: column !important;
+  }
+
+  footer .col {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  footer .nav {
+    justify-content: center;
+  }
+
+  footer h5 {
+    font-size: 16px;
+  }
   }
    
   
